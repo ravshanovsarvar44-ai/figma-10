@@ -457,6 +457,78 @@ nav a.active {
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+
+ 
+  .nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+ 
+  .hero-wrap {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-text,
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+
+  .cardlar-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reverse .feature-box {
+    flex-direction: column;
+  }
+
+  .feature-text {
+    max-width: 100%;
+  }
+
+  .testimonial-card {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 30px;
+  }
+
+  .testimonial-right {
+    text-align: center;
+  }
+
+  
+  .article-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+
+  .brand p {
+    margin: 20px auto;
+  }
+}
+
 
 
 
